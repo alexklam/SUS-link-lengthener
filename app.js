@@ -44,7 +44,7 @@ if (URL.includes("#go")) {
 
 	document.querySelector("#redirect-area").classList.remove("hidden");
 
-	const redirectWaitTime = 6;
+	const redirectWaitTime = 1;
 	const countdownTimerEle = document.querySelector("#countdownTimer");
 	countdownTimerEle.textContent = redirectWaitTime;
 	setInterval(() => {
